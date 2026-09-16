@@ -1,0 +1,35 @@
+Metric,Value,Source
+Index level,7554.29,manual (Damodaran Jun-15-2026 snapshot)
+Current S&P 500 level (info only),7550.43994140625,"live (yfinance, ticker ^GSPC)"
+Aggregate float-adjusted market cap,63498.44,manual (Damodaran Jun-15-2026 snapshot)
+Index units (level / aggregate cap),0.11896811953175541,computed
+2025 aggregate dividends,664.9,manual (Damodaran Jun-15-2026 snapshot)
+Trailing P/E assumption,24,manual assumption
+SpaceX market cap added,1989.130452992,"live (yfinance, ticker SPCX)"
+OpenAI market cap added,852.0,manual assumption (valuation x float)
+Anthropic market cap added,965.0,manual assumption (valuation x float)
+Total cap added,3806.130452992,computed
+Total cap removed (3 small-caps),3,manual assumption
+New aggregate market cap,67301.570452992,computed
+New index units,0.11224537479814725,computed
+Index level after swap (should equal level before),7554.29,computed
+SpaceX index weight,0.029555483469458476,computed
+OpenAI index weight,0.012659437131487069,computed
+Anthropic index weight,0.014338446985780542,computed
+Combined new-company weight,0.05655336758672609,computed
+Base earnings (aggregate cap / P-E),2645.7683333333334,computed
+Net income total (3 new companies),-23,manual assumption
+New earnings,2622.7683333333334,computed
+New index P/E,25.66050901165829,computed
+
+--- Tesla S&P 500 inclusion event study ---
+Checkpoint,Date,TSLA cum return,S&P 500 cum return,Abnormal return
+inclusion (+0mo),2020-12-21,59.24%,1.88%,57.37%
++1mo,2021-01-21,107.06%,6.24%,100.82%
++3mo,2021-03-21,64.18%,8.65%,55.53%
++6mo,2021-06-21,52.13%,16.48%,35.65%
++12mo,2021-12-21,129.98%,28.19%,101.79%
+
+Tesla data source,"live (yfinance, ticker TSLA)"
+S&P 500 data source,"live (yfinance, ticker ^GSPC)"
+Chart file,event_study_chart.png
